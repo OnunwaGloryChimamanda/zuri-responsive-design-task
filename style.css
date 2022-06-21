@@ -82,7 +82,7 @@ form p b {
     color: hsl(0, 100%, 74%);
 }
 
-@media only screen and (min-width: 1073px) {
+@media only screen and (min-width: 1073px) and (max-width: 1700px) {
     .container {
         display: flex;
         justify-content: space-around;
