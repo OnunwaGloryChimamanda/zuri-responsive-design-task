@@ -1,0 +1,129 @@
+.container {
+    background-image: url("bg-intro-mobile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: hsl(0, 100%, 74%) ;
+    text-align: center;
+    padding: 2em;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: white;
+    
+}
+
+.description {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 1em;
+    padding-bottom: 1em;   
+}
+
+.free-trial {
+    font-family:'Poppins', sans-serif;
+    color: white;
+    background-color: hsl(248, 32%, 49%);
+    padding: 1em 3.5em 1em 3.5em;
+    border-radius: 15px;
+    font-size: 16px;
+    box-shadow: 0 0.5em hsl(0, 96%, 70%) ;  
+    margin-top: 3em;
+
+}
+
+form {
+   margin-top: 1.5em;
+   margin-bottom: 1.5em;
+   padding: 1.5em;
+   background-color: white;
+   border-radius: 13px;
+   box-shadow: 0 0.5em hsl(0, 96%, 70%) ;
+   
+}
+
+input {
+    font-family:'Poppins', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0.8em;
+    padding: 1em 1.5em;
+    border-radius: 5px;
+    border: hsl(246, 25%, 77%) solid 1px ;
+    color: hsl(249, 10%, 26%); 
+  
+}
+
+.btn {
+    background-color:hsl(154, 59%, 51%) ;
+    color: white;
+    font-weight: 400;
+    box-shadow: 0 0.2em hsl(154, 52%, 43%);
+    border: none;
+    padding-left: 3em;
+    padding-right: 3em;
+
+}
+
+.btn:hover {
+    background-color: hsl(154, 41%, 57%);
+}
+
+form p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color:hsl(246, 25%, 77%) ;
+    font-weight: 500;
+}
+
+form p b {
+    color: hsl(0, 100%, 74%);
+}
+
+@media only screen and (min-width: 1073px) {
+    .container {
+        display: flex;
+        justify-content: space-around;
+        background-image: url("bg-intro-desktop.png");
+        padding: 4em;
+    
+    }
+
+    .text {
+        text-align: left;
+        padding: 2em;
+        font-size: 1.5em;
+        margin: 1em;
+    }
+
+    .description {
+        font-size: 1em;
+    }
+
+    .free-trial {
+    border-radius: 15px;
+    font-size: 1em;
+    box-shadow: 0 0.5em hsl(0, 96%, 70%) ;  
+    margin-top: 0;
+    margin-left: 5em;
+    }
+
+    input {
+        padding-right: 10em;
+    }
+
+    form {
+        padding: 1.5em 3em;
+        margin-left: 5em;
+    }
+
+    .btn {
+        padding-left:3em ;
+        padding-right: 3em;
+    }
+
+    
+
+}
