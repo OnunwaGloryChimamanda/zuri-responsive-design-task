@@ -27,7 +27,7 @@ h2 {
     font-family:'Poppins', sans-serif;
     color: white;
     background-color: hsl(248, 32%, 49%);
-    padding: 1em 3.5em 1em 3.5em;
+    padding: 1em 2em 1em 2em;
     border-radius: 15px;
     font-size: 16px;
     box-shadow: 0 0.5em hsl(0, 96%, 70%) ;  
@@ -82,46 +82,48 @@ form p b {
     color: hsl(0, 100%, 74%);
 }
 
-@media only screen and (min-width: 1073px) and (max-width: 1700px) {
+@media only screen and (min-width:760px) {
     .container {
         display: flex;
         justify-content: space-around;
         background-image: url("bg-intro-desktop.png");
-        padding: 4em;
+        padding: 0;
     
     }
 
     .text {
         text-align: left;
-        padding: 2em;
-        font-size: 1.5em;
-        margin: 1em;
+        margin : 5em 1em 1em 3em;
+        font-size: 18px;
+        
     }
 
     .description {
         font-size: 1em;
     }
 
+    .formPart {
+        padding: 1em
+    }
+
     .free-trial {
-    border-radius: 15px;
-    font-size: 1em;
+    border-radius: 12px;
+    font-size: 0.8em;
     box-shadow: 0 0.5em hsl(0, 96%, 70%) ;  
-    margin-top: 0;
-    margin-left: 5em;
+    padding-right: 1em;
+    padding-left: 1em;
     }
 
     input {
-        padding-right: 10em;
+        padding-right: 7em;
     }
 
     form {
-        padding: 1.5em 3em;
-        margin-left: 5em;
+        padding: 1em;
     }
 
     .btn {
-        padding-left:3em ;
-        padding-right: 3em;
+        padding: 1em 4.7em 1em 4.7em
     }
 
     
